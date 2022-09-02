@@ -38,7 +38,7 @@ class VolatilityFormatter(GenericDataFormatter):
   """
 
   _column_definition = [
-    #   ('Time', DataTypes.CATEGORICAL, InputTypes.ID),
+      ('Time', DataTypes.CATEGORICAL, InputTypes.ID),
       ('date', DataTypes.DATE, InputTypes.TIME),
       ('log_vol', DataTypes.REAL_VALUED, InputTypes.TARGET),
       ('open_to_close', DataTypes.REAL_VALUED, InputTypes.OBSERVED_INPUT),
